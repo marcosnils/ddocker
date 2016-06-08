@@ -16,7 +16,7 @@ This is the repo that will (eventually) hold the code for Distributed Docker, a 
 
 - If you have a really poor upload speeds (like in our country) and you need to share docker images with your team members but you want to skip the burden of running and configuring
 
-- INSERT YOUR USECASE HERE (please submit PR's)
+- INSERT YOUR USE CASE HERE (please submit PR's)
 
 
 
