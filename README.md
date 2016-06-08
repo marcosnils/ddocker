@@ -37,7 +37,7 @@ Originally my idea was to present this as a [Cool Hack](https://blog.docker.com/
 
 ## Will this ever be released?
 
-Hopefully, I have mostly working but it's poorly coded and full of nasty stuff everywhere. I just need to find the bandwidth to polish. I'm still not sure that 
+Hopefully, I have mostly working but it's poorly coded and full of nasty stuff everywhere. I just need to find the bandwidth to polish.
 
 ## What about security?
 
