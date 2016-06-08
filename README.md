@@ -4,7 +4,7 @@ Distributed Docker, share your docker images from any docker daemon.
 
 # What is this?
 
-This is the repo that will (eventually) hold the code for Distributed Docker, a service that allows to desentralize docker images. Instead of telling how cool (or not) this project might be, I prefer to ennumerate the uses cases that I believe originated this: 
+This is the repo that will (eventually) hold the code for Distributed Docker, a service that allows to desentralize docker images. Instead of telling how cool (or not) this project might be, I prefer to ennumerate the use cases that I believe originated this: 
 
 - Did it even happen to you that you needed to deploy code to prod by pushing docker images to a centralized registry that wasn't available?
 
