@@ -4,7 +4,7 @@ Distributed Docker, share your docker images from any docker daemon.
 
 # What is this?
 
-This is the repo that will (eventually) hold the code for Distributed Docker, a tool that allows to desentralize docker images. Instead of telling how cool (or not) this project might be, I prefer to ennumerate the uses cases that I believe originated this: 
+This is the repo that will (eventually) hold the code for Distributed Docker, a service that allows to desentralize docker images. Instead of telling how cool (or not) this project might be, I prefer to ennumerate the uses cases that I believe originated this: 
 
 - Did it even happen to you that you needed to deploy code to prod by pushing docker images to a centralized registry that wasn't available?
 
@@ -23,6 +23,11 @@ This is the repo that will (eventually) hold the code for Distributed Docker, a 
 # How this did started?
 
 Originally we were thinking of using the bittorrent protocol to distribute docker layers in a desentralized way using trackerless DHT protocol, but for different reasons (too many to type) we decided to use a different and simpler approach. 
+
+# How does it work?
+
+You can run ddocker in any current docker dameon without any modifications. You just run a container that mounts the daemon socket and credentials if necessary and ddocker will automatically expose an API that allows to retrieve the images that the daemon currently holds. So, instead of pulling an image from a registry you just do `docker pull somedaemon/image` and that's it.
+ddocekr will "emulate" a registry API and calculate the layer hashes and serve them as necessary. As the layer hashes won't change, you will be able to use the native caching transparently
 
 # What's the status of the proejct?
 
