@@ -14,7 +14,7 @@ This is the repo that will (eventually) hold the code for Distributed Docker, a 
 
 - When pulling images from a swarm all daemons will try to fetch them concurrently from the same repository. If the swarm is already a cluster, wouldn't it make sense if the daemons share the images between themselves?.
 
-- If you have a really poor upload speeds (like in our country) and you need to share docker images with your team members but you want to skip the burden of running and configuring
+- If you have a really poor upload speeds (like in our country) and you need to quickly share docker images with your team members but you want to skip the burden of running and configuring your own registry.
 
 - INSERT YOUR USE CASE HERE (please submit PR's)
 
