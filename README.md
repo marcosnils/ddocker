@@ -27,7 +27,7 @@ Originally we were thinking of using the bittorrent protocol to distribute docke
 # How does it work?
 
 You can run ddocker in any current docker dameon without any modifications. You just run a container that mounts the daemon socket and credentials if necessary and ddocker will automatically expose an API that allows to retrieve the images that the daemon currently holds. So, instead of pulling an image from a registry you just do `docker pull somedaemon/image` and that's it.
-ddocekr will "emulate" a registry API and calculate the layer hashes and serve them as necessary. As the layer hashes won't change, you will be able to use the native caching transparently
+ddocker will "emulate" a registry API and calculate the layer hashes and serve them as necessary. As the layer hashes won't change, you will be able to use the native caching transparently
 
 # What's the status of the proejct?
 
