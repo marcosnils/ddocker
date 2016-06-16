@@ -12,7 +12,7 @@ This is the repo that will (eventually) hold the code for Distributed Docker, a 
 
 - Sometimes when you need to scale up an app you already have tons of daemons running the same version of the app that you want the scale. Why it is necessary to use outbound bandwith (not always), deal with possible connection errors if you already have daemons serving that image right next to you?.
 
-- When pulling images from a swarm all daemons will try to fetch them concurrently from the same repository. If the swarm is already a cluster, wouldn't it make sense if the daemons 
+- When pulling images from a swarm all daemons will try to fetch them concurrently from the same repository. If the swarm is already a cluster, wouldn't it make sense if the daemons share the images between themselves?.
 
 - If you have a really poor upload speeds (like in our country) and you need to share docker images with your team members but you want to skip the burden of running and configuring
 
